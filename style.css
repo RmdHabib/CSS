@@ -1,0 +1,124 @@
+/*Created By Rmd Habib*/
+body {
+    background-color:rgb(204, 190, 190); 
+    user-select:none;
+ }
+ *{
+     margin:0;
+     padding:0;
+ }
+ .ful-code{
+     height:100vh;
+     width:100vw;
+     display:flex;
+     text-align: center;
+     align-items:center;
+     justify-content:center;
+ }
+ .card{
+     height:440px;
+     width:300px;
+     background-color:#ecf0f3;
+     text-align:center;
+     border-radius:20px;
+     box-shadow: 3px 3px 5px #fff, -3px -3px 5px #757575;
+     position:absolute;
+ }
+ .card img{
+     border-radius:100%;
+     margin-top:10px;
+     width:70px;
+     border:solid 10px #ecf0f3;
+     box-shadow: 3px 3px 5px #fff, -2px -2px 3px #757575;
+ }
+ .name{
+     margin-top:10px;
+     font-size:large;
+     font-weight:bolder;
+     color:#000;
+     border-radius:20px;
+     display:flex;
+     align-items:center;
+     justify-content:center;
+ }
+ .ok{
+     display:flex;
+     align-items:center;
+     justify-content:center;
+     margin-top:30px;
+ }
+ 
+ .follow{
+     height:40px;
+     width:120px;
+     background-color:#ecf0f3;
+     box-shadow: 2px 2px 3px #fff, -2px -2px 3px #757575;  
+     font-size:large;
+     display:flex;
+     align-items:center;
+     justify-content:center;
+     border-radius:10px;
+     margin-right:10px;
+ }
+ .msg{
+     height:40px;
+     width:120px;
+     background-color:#ecf0f3;
+     box-shadow: 2px 2px 3px #fff, -2px -2px 3px #757575;  
+     font-size:large;
+     display:flex;
+     align-items:center;
+     justify-content:center;
+     border-radius:10px;
+ }
+ .content{
+     margin-top:10px;
+     padding-bottom:10px;
+     padding-top:10px;
+     padding-left:20px;
+     padding-right:20px;
+ }
+ .bottom{
+     height:60px;
+     width:280px;
+     box-shadow: 3px 3px 5px #fff, -3px -3px 5px #757575;
+     position:absolute;
+     bottom:20px;
+     margin-left:10px;
+     border-radius:13px;
+     display:flex;
+     align-items:center;
+     justify-content:center;
+ }
+ .fol{
+     display:inline-block;
+ }
+ .pro{
+     display:inline-block;
+ }
+ .section{
+   width:260px;
+   height:60px;
+   background:#ecf0f3;
+       backgroud-clip: padding-box;
+       margin-top:50px;
+       margin-left:20px;
+       border-radius:10px;
+       box-shadow: 4px 4px 5px #fff, -3px -3px 4px #757575;
+ }
+ .one{
+   float:left;
+   margin-left:30px;
+   display:inline-block;
+   padding:10px;
+ }
+ .two{
+   display:inline-block;
+   padding:10px;
+ }
+ 
+ a{
+   text-decoration:none; 
+   color:#000; -webkit-tap-highlight-color:transparent;
+ }
+ 
